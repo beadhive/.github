@@ -1,20 +1,21 @@
 # beadhive
 
-![beadhive — Agentic Git Flow, driven by beads.](assets/banner-readme.png)
+![Beadhive — a bead-machine: a software factory that uses beads.](assets/banner-readme.png)
 
-**Agentic Git Flow, driven by beads.** Beadhive is a software factory: work is
+**Beadhive — a bead-machine: a software factory that uses beads.** Work is
 tracked as beads, planned into molecules, and driven through `bh` — one CLI
-across every repo in the hive.
+across every repo in the hive. Agents hold most of the seats; you hold the
+gates.
 
-**[Read the field guide → beadhive.github.io](https://beadhive.github.io/)** — how the factory turns raw ideas into an always-green integration branch.
+- **Install:** [INSTALL.md](https://github.com/beadhive/beadhive/blob/main/INSTALL.md) — fresh machine to a working `bh`, one step at a time.
+- **Start:** [beadhive.ai/start](https://beadhive.ai/start/) — ship something real in one sitting.
 
-```sh
-uv tool install 'beadhive[otel]'     # PyPI
-brew install beadhive/tap/beadhive   # Homebrew
-```
+**[Read the field guide → beadhive.ai](https://beadhive.ai)** — how the factory
+turns raw ideas into an always-green integration branch.
 
 | repo | what it is |
 |---|---|
-| [beadhive](https://github.com/beadhive/beadhive) | the `bh` CLI — integration-plane driver for AGF |
-| [claude-plugin](https://github.com/beadhive/claude-plugin) | Claude Code plugin: role skills + marketplace |
-| [homebrew-tap](https://github.com/beadhive/homebrew-tap) | `brew tap beadhive/tap` |
+| [beadhive](https://github.com/beadhive/beadhive) | the `bh` CLI — the bead-machine itself |
+| [agent-plugin](https://github.com/beadhive/agent-plugin) | Agent Plugins standard distribution — the harness-neutral install |
+| [claude-plugin](https://github.com/beadhive/claude-plugin) | Claude Code marketplace `beadhive`, plugin `bh` |
+| [homebrew-tap](https://github.com/beadhive/homebrew-tap) | fallback; builds native deps from source — prefer INSTALL.md |
